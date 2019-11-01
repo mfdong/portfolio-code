@@ -1,3 +1,5 @@
+// this script was used by a makefile to combine district data into
+// one SVG, which was then used as a template for other SVGs.
 const fs = require("fs");
 const d3 = require("d3");
 const topojson = require("topojson");
